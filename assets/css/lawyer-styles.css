@@ -1,0 +1,34 @@
+/* Lawyer's Styles */
+body {
+    background-color: #fff3e0;
+}
+
+h1 {
+    color: #f57c00;
+}
+
+input {
+    background-color: #ffffff;
+    border: 1px solid #f57c00;
+}
+
+button {
+    background-color: #f57c00;
+}
+
+button:hover {
+    background-color: #e65100;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #f57c00;
+}
+
+.deleteBtn {
+    background-color: #d32f2f;
+}
+
+.deleteBtn:hover {
+    background-color: #c2185b;
+}

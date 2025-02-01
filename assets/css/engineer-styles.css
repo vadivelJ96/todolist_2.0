@@ -1,0 +1,34 @@
+/* Engineer's Styles */
+body {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    color: #01579b;
+}
+
+input {
+    background-color: #ffffff;
+    border: 1px solid #01579b;
+}
+
+button {
+    background-color: #01579b;
+}
+
+button:hover {
+    background-color: #003c8f;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #01579b;
+}
+
+.deleteBtn {
+    background-color: #d32f2f;
+}
+
+.deleteBtn:hover {
+    background-color: #c2185b;
+}
