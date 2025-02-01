@@ -10,7 +10,7 @@ addTaskBtn.addEventListener("click", () => {
         const li = document.createElement("li");
         li.innerHTML = `
             ${taskText} 
-            <button class="deleteBtn">Delete</button>
+            <button class="deleteBtn" >Delete</button>
         `;
         
         // Add delete functionality
@@ -33,8 +33,10 @@ taskInput.addEventListener("keypress", (event) => {
 
 
 function applySubdomainStyling() {
-   // const subdomain = window.location.hostname.split('.')[0]; // Get subdomain
-    const subdomain = "doctor";
+
+    const subdomain = window.location.hostname.split('.')[0]; // Get subdomain
+
+
     const pageTitle = document.getElementById('pageTitle');
     const themeCSS = document.getElementById('themeCSS');
 

@@ -1,34 +1,71 @@
-/* Engineer's Styles */
+/* Default Styles */
 body {
-    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: #01579b;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
 }
 
 input {
-    background-color: #ffffff;
-    border: 1px solid #01579b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 button {
-    background-color: #01579b;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 button:hover {
-    background-color: #003c8f;
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 li {
-    background-color: #ffffff;
-    border: 1px solid #01579b;
+
+    display: flex;
+    justify-content: space-between;  /* Aligns the task text to the left and delete button to the right */
+    align-items: center;  /* Vertically centers the content */
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .deleteBtn {
-    background-color: #d32f2f;
+
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;  /* Adds a bit of space between the task text and the button */
+
 }
 
+
 .deleteBtn:hover {
-    background-color: #c2185b;
+    background-color: #d32f2f;
 }
